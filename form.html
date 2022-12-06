@@ -1,0 +1,139 @@
+<html lang='pt-BR'>
+
+<head>
+    <title>RECEITINHAS SOFTS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/duda.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-9 col-md-8 mx-md-auto text-md-center">
+                <img class="w-30 ml-5" alt="Imagem responsiva" src="img/ovo.png">
+            </div>
+            
+            <div class="col-3 col-md-2 col-lg-1 mt-4">
+                
+                <a class="" href="form.html"><img class="w-75" alt="Imagem responsiva" src="img/usu.png"></a>
+
+            </div>
+        </div>
+
+    </header>
+
+    <nav class="nav nav-pills nav-justified border-dark border-top border-bottom mb-3">
+
+        <a id="navli" class="nav-item nav-link disabled border m-2" href="duda.html">PÁGINA INICIAL</a>
+        <a id="navli" class="nav-item nav-link disabled border m-2" href="favoritas.html">FAVORITAS</a>
+        <a id="navli" class="nav-item nav-link disabled border m-2" href="entradas.html">ENTRADAS</a>
+        <a id="navli" class="nav-item nav-link disabled border m-2" href="princip.html">PRATOS PRINCIPAIS</a>
+        <a id="navli" class="nav-item nav-link disabled border m-2" href="sobremesas.html">SOBREMESAS</a>
+
+    </nav>
+
+    <main class="mx-auto">
+
+        <div class="row">
+
+            <form class="needs-validation mx-auto py-3 p-3 w-50 col-11 col-md-6" novalidate>
+                <div class="form-row">
+                    <div class="col-4 col-md-6">
+                        <label for="validationCustom01">Nome</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" required>
+                        <div class="valid-feedback">
+                            Tudo certo!
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-6">
+                        <label for="validationCustom02">Sobrenome</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome"
+                            required>
+                        <div class="valid-feedback">
+                            Tudo certo!
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-12 pt-2">
+                        <label for="validationCustomUsername">Usuário</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Usuário"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Por favor, escolha um nome de usuário.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-12 col-md-6 pt-2">
+                        <label for="validationCustom03">Informe seu email</label>
+                        <input type="email" class="form-control" id="validationCustom03" aria-describedby="emailHelp"
+                            placeholder="Email" required>
+                        <div class="invalid-feedback">
+                            Por favor, informe um email válido.
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 pt-2">
+                        <label for="validationCustom05">Senha</label>
+                        <input type="password" class="form-control" id="validationCustom05" placeholder="Senha"
+                            required>
+                        <div class="invalid-feedback">
+                            Por favor, informe uma senha válida.
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <button class="btn my-3 ml-4 " type="submit">Enviar</button>
+        </form>
+        </div>
+
+        <script>
+            // Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
+            (function () {
+                'use strict';
+                window.addEventListener('load', function () {
+                    // Pega todos os formulários que nós queremos aplicar estilos de validação Bootstrap personalizados.
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Faz um loop neles e evita o envio
+                    var validation = Array.prototype.filter.call(forms, function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();
+        </script>
+    </main>
+
+    <footer class="container-fluid">
+        <p class="text-center"> Feito por Eduarda Rigon</p>
+        <div class="row">
+            <a href="https://www.instagram.com/"><img class="mb-3 col-12 col-md-12" alt="Imagem responsiva" src="img/inst.png"></a>
+            <a href="https://twitter.com/"><img class="float-right mb-3 col-12 col-md-12" alt="Imagem responsiva"
+                    src="img/tt.png"></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Kenyan;
+    src: url("kenyan.ttf");
+}
+@font-face {
+    font-family: built ;
+    src: url("built.ttf");
+}
+
+body {
+    background-color: #e2d9fa;
+}
+
+
+header {
+    background-color: #c7a3f1;
+    border-color:#c7a3f1;
+}
+
+#navli{
+    color:#dfc3ff;
+    font-family: Kenyan;
+    font-size: 100%;
+    
+
+}
+
+#navli:hover {
+    color:#f1e6ff;
+
+}
+
+#titu:hover {
+    color:#f1e6ff;
+
+}
+
+nav {
+    background-color: #650094;
+    border-color: #650094;
+    font-family: Kenyan;
+    font-size: 150%;
+}
+
+main {
+    background-color: #e2d9fa;
+    border-color: #FFFFFF;
+}
+
+h2{
+    color:#55037b;
+    font-family: kenyan;
+    letter-spacing: 2px;
+    font-size: 200%;
+}
+
+#titu{
+    letter-spacing:1px;
+    font-family:Kenyan ;
+    color:#650094;
+    text-transform: uppercase;
+    font-size: 160%;
+}
+
+h3 {
+    letter-spacing:1px;
+    font-family: Kenyan;
+    color:#650094;
+}
+
+h4 {
+    letter-spacing:1px;
+    font-family: Kenyan;
+    color:#650094;
+}
+
+h5 {
+    letter-spacing:1px;
+    font-family: Kenyan;
+    color:#650094;
+}
+
+
+article, footer {
+    border: solid 1px #650094;
+    
+}
+
+footer {
+    background-color: #FFFFFF;
+}
+
+a:link {
+    color: #650094;
+    text-decoration: none;
+    font-family: built ;
+    font-size: 170%;
+    
+}
+
+a:visited {
+    color: #650094;
+    text-decoration: none;
+    font-family: built ;
+    font-size: 170%;
+    letter-spacing:normal;
+}
+
+button {
+    background-color: #55037b;
+    color:#f1e6ff;
+}
+
+label{
+    font-family: Kenyan;
+    color: #650094;
+}
+
+
+
+
